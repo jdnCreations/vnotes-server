@@ -1,0 +1,26 @@
+GET http://localhost:5000/
+
+###
+
+GET http://localhost:5000/notes
+
+###
+
+POST http://localhost:5000/create-note
+Content-Type: application/json
+
+{
+    "user": "jordan",
+    "agent": "raze",
+    "map": "bind",
+    "text": "hey man dont do that again"
+}
+
+###
+
+POST http://localhost:5000/note/6208e5721d6d1e089e472fa4/delete
+Content-Type: application/json
+
+{
+    "user": "jordan"
+}
