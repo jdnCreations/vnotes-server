@@ -18,9 +18,5 @@ Content-Type: application/json
 
 ###
 
-POST http://localhost:5000/note/6208e5721d6d1e089e472fa4/delete
+POST http://localhost:5000/note/6208dc1118538f2a149cd87b/delete
 Content-Type: application/json
-
-{
-    "user": "jordan"
-}
